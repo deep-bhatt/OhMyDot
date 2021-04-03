@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 # Reload this script
 function reload() {
     source ~/.bash_functions
