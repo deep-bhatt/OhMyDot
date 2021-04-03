@@ -1,5 +1,8 @@
 # aliases I often use -- this file is often complimented with .bash_functions
 
+# Sourcing bash_functions to use them in alias
+source ~/.bash_functions
+
 # Bluetooth Scan on
 alias bso="bluetoothctl scan on"
 
