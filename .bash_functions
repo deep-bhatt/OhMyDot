@@ -51,7 +51,7 @@ function pd() {
 }
 
 # Dictionary
-# $1 -> m for match, d -> define 
+# $1 -> m for match, d -> define
 # $2 -> word
 function dict() {
     curl dict://dict.org/$1:$2 -s | tail -n +3 | head -n -3 | less
