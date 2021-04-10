@@ -25,6 +25,9 @@ alias tcn='mv --force -t ~/.local/share/Trash'
 # prs = python run server
 alias prs='python3 manage.py runserver'
 
+# lhs = local http server
+alias lhs='python3 -m http.server 8080'
+
 # Capture a webcam screenshot
 # random_strs is a function defined in .bash_functions
 # wss = webcam screenshot
