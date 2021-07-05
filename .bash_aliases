@@ -36,3 +36,6 @@ alias wss='ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 ~/Webcam_ss
 # XCLIP Copy
 # Usage: echo -n 'Hello World' | copy
 alias copy='xclip -selection clipboard'
+
+# Save yourself from agony by using this god-gifted alias
+alias rm="rm -iv"
