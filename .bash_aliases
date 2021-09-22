@@ -41,4 +41,4 @@ alias copy='xclip -selection clipboard'
 alias rm="rm -iv"
 
 # Stop all docker containers
-alias dsc ="docker stop container $(docker ps | cut -d" " -f1 | tail +2)"
+alias dsc='docker stop container $(docker ps | cut -d" " -f1 | tail +2)'
